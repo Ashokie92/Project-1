@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Ashokie's Workspace." />
+    <title>Contact | Ashokie's Workspace</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Ashokie's Workspace</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-content">
+      <section class="card prose">
+        <p class="eyebrow">Contact</p>
+        <h1>Let's connect.</h1>
+        <p>Have an idea, question, or project to share? Send a message and start the conversation.</p>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
